@@ -80,7 +80,7 @@ def control_motor():
         peak_x.append(x)
         peak_y.append(y)
         power_dbm.append(p)
-        pyautogui.screenshot(t_str+str(num)+'.png',region=(1200,155,665,665))
+        pyautogui.screenshot(t_str+str(num)+'.png',region=(1200,156,665,665))
         num = num+1
         print('------------->',num)
     while num>=2 and num<=3:
